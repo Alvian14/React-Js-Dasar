@@ -167,7 +167,7 @@ function App() {
                 style={{ objectFit: 'cover', height: '300px' }}
               />
               <div className="card-body">
-                <h5 className="card-title">Alvian Hidayat</h5>
+                <h5 className="card-title fw-bold">Alvian Hidayat</h5>
                 <p className="card-text">Pendiri & CEO. Pemimpin visioner yang membawa toko buku ini menuju masa depan yang cerah.</p>
               </div>
             </div>
@@ -182,7 +182,7 @@ function App() {
                 style={{ objectFit: 'cover', height: '300px' }}
               />
               <div className="card-body">
-                <h5 className="card-title">Alkausar</h5>
+                <h5 className="card-title fw-bold">Alkausar</h5>
                 <p className="card-text">Spesialis Pemasaran. Ahli dalam membangun koneksi dengan pembaca dari berbagai penjuru.</p>
               </div>
             </div>
@@ -197,7 +197,7 @@ function App() {
                 style={{ objectFit: 'cover', height: '300px' }}
               />
               <div className="card-body">
-                <h5 className="card-title">Atilah lazuar</h5>
+                <h5 className="card-title fw-bold">Atilah lazuar</h5>
                 <p className="card-text">Pengembang. Otak di balik teknologi yang mendukung platform kami.</p>
               </div>
             </div>
@@ -205,7 +205,6 @@ function App() {
         </div>
       </div>
     </section>
-
 
 
     {/* Section Contact */}
