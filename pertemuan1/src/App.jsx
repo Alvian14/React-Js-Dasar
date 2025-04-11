@@ -23,6 +23,7 @@ function App() {
         </div>
       </header>
 
+      {/* halaman home */}
       <div id="home" className="container my-5">
         <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
@@ -39,7 +40,7 @@ function App() {
         </div>
       </div>
 
-
+       {/* section book */}
       <section className="py-5 text-center container">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
@@ -53,7 +54,6 @@ function App() {
       </div>
     </section>
 
-    {/* halaman book */}
     <div id="book" className="album py-5 bg-body-tertiary">
       <div className="container">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -246,7 +246,7 @@ function App() {
 
     {/* Footer */}
     <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2025 Alvian, Polije.</p>
+            <p>&copy; 2025 Alvian, NF Academy.</p>
             <ul className="list-unstyled d-flex">
               <li className="ms-3"><a className="link-body-emphasis" href="#"><i className="fab fa-twitter"></i></a></li>
               <li className="ms-3"><a className="link-body-emphasis" href="#"><i className="fab fa-instagram"></i></a></li>
