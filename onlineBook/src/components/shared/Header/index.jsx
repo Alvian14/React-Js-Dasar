@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import './index.css';
 export default function Header() {
     return (
         <>
@@ -11,11 +12,13 @@ export default function Header() {
                 </div>
 
                 <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><Link to="/" className="nav-link px-2 fw-bold">Beranda</Link></li>
-                    <li><Link to="/books" className="nav-link px-2 fw-bold">Buku</Link></li>
-                    <li><Link to="/team" className="nav-link px-2 fw-bold">Tim</Link></li>
-                    <li><Link to="/kontak" className="nav-link px-2 fw-bold">Kontak</Link></li>
+                    <li><Link to="/" className="nav-item-custom">Beranda</Link></li>
+                    <li><Link to="/books" className="nav-item-custom">Buku</Link></li>
+                    <li><Link to="/team" className="nav-item-custom">Tim</Link></li>
+                    <li><Link to="/kontak" className="nav-item-custom">Kontak</Link></li>
                 </ul>
+
+
 
                 <div className="col-md-3 text-end">
                     <Link to="/login">
